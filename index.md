@@ -14,8 +14,7 @@ Table 1: Performance of different learnt policies on 200 different test episodes
 | Jointly learning method [ref 16]| -370.37               |  279.37                |
 
 #### Training curse of DDPG v.s. Stable-DDPG
-
-![alt text](https://github.com/stable-rl-neurips2021/stable_rl.github.io/blob/gh-pages/training.png)
+<img src="training.png" class="img-responsive" alt=""> </div>
 
 
 ### Jekyll Themes
