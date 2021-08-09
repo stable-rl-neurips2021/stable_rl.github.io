@@ -1,32 +1,22 @@
-## Welcome to GitHub Pages
+## Stability Aware Policy Learning via Krasovskii's Approach with Application to Voltage Control
 
-You can use the [editor on GitHub](https://github.com/stable-rl-neurips2021/stable_rl.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+We provide our new experiment results in this webpage.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### OpenAI Pendulum Swingup task
 
-### Markdown
+#### Performance comparison of the learned policies
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Table 
+| Method                          |Test Episode Cost Mean |Test Episode Cost Std |
+| ------------------------------- |-----------------------|----------------------|
+| DDPG                            | -137.52               |  82.50               |
+| Stable-DDPG                     | -128.56               |  76.30               |
+| Jointly learning method [ref 16]| -370.37               |  279.37              |
 
-```markdown
-Syntax highlighted code block
+#### Training curse of DDPG v.s. Stable-DDPG
 
-# Header 1
-## Header 2
-### Header 3
+![alt text](https://github.com/stable-rl-neurips2021/stable_rl.github.io/blob/gh-pages/training.png)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
