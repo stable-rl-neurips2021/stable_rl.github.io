@@ -6,12 +6,12 @@ We provide our new experiment results in this webpage.
 
 #### Performance comparison of the learned policies
 
-Table 
-| Method                          |Test Episode Cost Mean |Test Episode Cost Std |
-| ------------------------------- |-----------------------|----------------------|
-| DDPG                            | -137.52               |  82.50               |
-| Stable-DDPG                     | -128.56               |  76.30               |
-| Jointly learning method [ref 16]| -370.37               |  279.37              |
+Table 1: Performance of different learnt policies on 200 different test episodes with different initial angle and angular velocity.
+| Method                          |Cost Mean              |Cost Standard deviation |
+| ------------------------------- |-----------------------|------------------------|
+| DDPG                            | -137.52               |  82.50                 |
+| Stable-DDPG                     | -128.56               |  76.30                 |
+| Jointly learning method [ref 16]| -370.37               |  279.37                |
 
 #### Training curse of DDPG v.s. Stable-DDPG
 
