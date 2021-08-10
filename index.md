@@ -11,6 +11,7 @@ We provide our new experiment results in this webpage.
 
 #### Training curse of DDPG v.s. Stable-DDPG
 <img src="training.png" class="img-responsive" alt="" height = "400"> 
+
 Fig.1. Average episode reward for DDPG vs Stable-DDPG on [pendulum-v0](https://gym.openai.com/envs/Pendulum-v0/). The horizonal axis is the training iteration, and the vertical axis is the average reward. Plotted curves are average over 5 random seeds, and the shaded region show the standard derivation.
 
 
