@@ -16,15 +16,9 @@ The above figure shows the average episode reward for DDPG vs Stable-DDPG on [pe
 #### Videos
 
 **DDPG**
-<div class="embed-container">
-  <iframe
-      width="640"
-      height="480"
-      src="https://drive.google.com/file/d/1RdQ3SwUGG8p5Bz4ZOWoD58Zu3NqkV1du/view?usp=sharing"
-      frameborder="0"
-      allowfullscreen="">
-  </iframe>
-</div>
+
+<iframe src="https://drive.google.com/file/d/1EC8BnjJMon-vqy-UhLKk9sf_oukZzEbP/preview"></iframe>
+
 
 **Stable-DDPG**
 
@@ -38,7 +32,7 @@ The above figure shows the average episode reward for DDPG vs Stable-DDPG on [pe
 
 The following figure visualizes the control policy learnt from baseline DDPG, Stable-DDPG and linear policy for five voltage controllers. Compared to the linear controller, the proposed Stable-DDPG learns a nonlinear monotone controller in different shapes. In addition, the policy learnt baseline DDPG shares similar shape but having more expressive power (no monotonicity requirement).
 
-<img src="voltage_policy.png" class="img-responsive" alt=""> 
+<img src="voltage_policy.png" class="img-responsive" alt=""  width="500"> 
 
 ### DDPG v.s. Stable-DDPG v.s. Baseline Linear Policy
 
