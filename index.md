@@ -15,6 +15,22 @@ The above figure shows the average episode reward for DDPG vs Stable-DDPG on [pe
 
 #### Videos
 
+**DDPG**
+<div class="embed-container">
+  <iframe
+      width="640"
+      height="480"
+      src="https://drive.google.com/file/d/1RdQ3SwUGG8p5Bz4ZOWoD58Zu3NqkV1du/view?usp=sharing"
+      frameborder="0"
+      allowfullscreen="">
+  </iframe>
+</div>
+
+**Stable-DDPG**
+
+**Joint learning Lypunov and controller**
+
+
 
 ## Voltage Control
 
