@@ -25,7 +25,7 @@ The policy learnt from [ref 16] has the form:
 ## Voltage Control
 
 ### Visualization of DDPG, Stable-DDPG and Baseline Linear Policy
-<img src="policy.png" class="img-responsive" alt=""> </div>
+<img src="voltage_policy.png" class="img-responsive" alt=""> </div>
 
 ### DDPG v.s. Stable-DDPG v.s. Baseline Linear Policy
 
