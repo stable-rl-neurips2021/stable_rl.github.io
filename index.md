@@ -11,8 +11,7 @@ We provide our new experiment results in this webpage.
 
 #### Training curse of DDPG v.s. Stable-DDPG
 <img src="training.png" class="img-responsive" alt="" height = "400"> 
-
-The above figure shows the average episode reward for DDPG vs Stable-DDPG on [pendulum-v0](https://gym.openai.com/envs/Pendulum-v0/). The horizonal axis is the training iteration, and the vertical axis is the average reward. Plotted curves are average over 5 random seeds, and the shaded region show the standard derivation.
+Fig.1. Average episode reward for DDPG vs Stable-DDPG on [pendulum-v0](https://gym.openai.com/envs/Pendulum-v0/). The horizonal axis is the training iteration, and the vertical axis is the average reward. Plotted curves are average over 5 random seeds, and the shaded region show the standard derivation.
 
 
 #### Policy performance videos
@@ -33,6 +32,7 @@ The above figure shows the average episode reward for DDPG vs Stable-DDPG on [pe
 The following figure visualizes the control policy learnt from baseline DDPG, Stable-DDPG and linear policy for five voltage controllers. Compared to the linear controller, the proposed Stable-DDPG learns a nonlinear monotone controller in different shapes. In addition, the policy learnt baseline DDPG shares similar shape but having more expressive power (no monotonicity requirement).
 
 <img src="voltage_policy.png" class="img-responsive" alt="" width="800"> 
+Fig.2. Visualization of DDPG, Stable-DDPG and linear control policy at 5 PV buses. The x-axis is voltage (unit: kV) and the y-axis is control action (unit: MVar).
 
 ### DDPG v.s. Stable-DDPG v.s. Baseline Linear Policy
 
