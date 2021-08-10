@@ -17,7 +17,7 @@ The above figure shows the average episode reward for DDPG vs Stable-DDPG on [pe
 
 **DDPG**
 
-<iframe width="560" height="315" src="https://youtu.be/eVV42cE_FkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eVV42cE_FkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 **Stable-DDPG**
