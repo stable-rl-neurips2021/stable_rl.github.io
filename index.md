@@ -15,7 +15,8 @@ We provide our new experiment results in this webpage.
 The above figure shows the average episode reward for DDPG vs Stable-DDPG on [pendulum-v0](https://gym.openai.com/envs/Pendulum-v0/). The horizonal axis is the training iteration, and the vertical axis is the average reward. Plotted curves are average over 5 random seeds, and the shaded region show the standard derivation.
 
 
-#### Videos
+#### Policy performance videos
+
 
 **Stable-DDPG** [Video](https://drive.google.com/file/d/1NJ03cichW3MscIhXtjnSl6-a-kRprOpY/view?usp=sharing)
 
