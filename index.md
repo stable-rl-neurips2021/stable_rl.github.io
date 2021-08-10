@@ -15,14 +15,11 @@ The above figure shows the average episode reward for DDPG vs Stable-DDPG on [pe
 
 #### Videos
 
-**DDPG**
+**Stable-DDPG** [Video](https://drive.google.com/file/d/1NJ03cichW3MscIhXtjnSl6-a-kRprOpY/view?usp=sharing)
 
-{% youtube oHg5SJYRHA0 500 400 %}
+**DDPG** [Video](https://drive.google.com/file/d/10K-XCp4ohitNwv_giU0j-y0gFRrL-Ky3/view?usp=sharing)
 
-
-**Stable-DDPG**
-
-**Joint learning Lypunov and controller**
+**Joint learning Lypunov and controller** [Video](https://drive.google.com/file/d/1Ybpt3jV82lg0_SgOaJYntNUDBV_dtzTM/view?usp=sharing)
 
 
 
