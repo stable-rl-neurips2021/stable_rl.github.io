@@ -17,9 +17,7 @@ The above figure shows the average episode reward for DDPG vs Stable-DDPG on [pe
 
 **DDPG**
 
-<iframe class="VisiCalcClass" id="Loan_Repayment_Calculator" src="https://www.youtube.com/embed/dQw4w9WgXcQ" width="700";
- height="1500" scrolling="no">
-</iframe>
+{% youtube oHg5SJYRHA0 500 400 %}
 
 
 **Stable-DDPG**
