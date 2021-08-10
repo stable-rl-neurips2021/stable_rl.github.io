@@ -26,6 +26,8 @@ The policy learnt from [ref 16] has the form:
 
 ### Visualization of DDPG, Stable-DDPG and Baseline Linear Policy
 
+The following figure visualizes the control policy learnt from baseline DDPG, Stable-DDPG and linear policy for five voltage controllers. Compared to the linear controller, the proposed Stable-DDPG learns a nonlinear monotone controller in different shapes. In addition, the policy learnt baseline DDPG shares similar shape but having more expressive power (no monotonicity requirement).
+
 <img src="voltage_policy.png" class="img-responsive" alt=""> 
 
 ### DDPG v.s. Stable-DDPG v.s. Baseline Linear Policy
