@@ -11,14 +11,7 @@ The above figure shows the average episode reward for DDPG vs Stable-DDPG on [pe
 
 #### Performance comparison of the final learned policies
 
-Table 1: Performance of different learnt policies on 200 different test episodes with different initial angle and angular velocity.
-| Method                          |Cost Mean              |Cost Standard deviation |
-| ------------------------------- |-----------------------|------------------------|
-| DDPG                            | -137.52               |  82.50                 |
-| Stable-DDPG                     | -128.56               |  76.30                 |
-| Jointly learning method [ref 16]| -370.37               |  279.37                |
-
-The policy learnt from [ref 16] has the form: 
+<img src="pendulum_result.png" class="img-responsive" alt=""> 
 
 #### Videos
 
