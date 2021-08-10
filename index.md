@@ -11,7 +11,7 @@ The above figure shows the average episode reward for DDPG vs Stable-DDPG on [pe
 
 #### Performance comparison of the final learned policies
 
-<img src="pendulum_result.png" class="img-responsive" alt=""> 
+<img src="pendulum_result.png" class="img-responsive" alt="" width="700"> 
 
 #### Videos
 
@@ -38,9 +38,9 @@ The following figure visualizes the control policy learnt from baseline DDPG, St
 
 As shown in Fig 4 in the submitted paper, baseline DDPG does not guarantee stability and thus can lead to ``infinite'' voltage recovery time and control cost. To obtain a reasonable comparison, we limit the max episode length to be T= 100, and compare the voltage recovery time (steps) and reactive power consumption (MVar) on 500 different voltage violation scenarios. Here are the results.
 
-<img src="voltage_500.png" class="img-responsive" alt=""> 
+<img src="voltage_500.png" class="img-responsive" alt="" width="700"> 
 
 Out of the 500 scenarios, we found that DDPG is able to stabilize 288 scenarios. For the scenarios baseline DDPG can stabilize, we observed that it can further reduce the control cost and recovery time, compared to Stable-DDPG and linear policy, possibly due to the more expressive power of standard neural network compared to monotone network.
 
-<img src="voltage_stable.png" class="img-responsive" alt=""> 
+<img src="voltage_stable.png" class="img-responsive" alt="" width="700"> 
 
